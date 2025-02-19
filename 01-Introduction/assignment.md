@@ -1,4 +1,4 @@
-Here’s an **assignment** based on the basics you covered. This will help learners apply what they’ve learned about PHP syntax, variables, and embedding PHP in HTML.  
+Here’s an **assignment** based on the basics you covered.  
 
 ---
 
