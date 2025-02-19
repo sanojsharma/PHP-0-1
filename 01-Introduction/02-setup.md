@@ -38,4 +38,4 @@ XAMPP is a free, cross-platform tool that includes **Apache, MySQL, PHP, and php
    - If you see the XAMPP dashboard, your setup is successful! 🎉  
 
 ## 📌 **Next Steps**  
-Now that your PHP environment is ready, let's move on to **Understanding PHP Syntax and Basics!** 🚀
+Now that your PHP environment is ready, let's move on to **Writing Your First PHP Script!** 🚀
