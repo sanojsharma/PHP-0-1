@@ -12,7 +12,8 @@ Create a basic PHP webpage that displays a personalized welcome message
 1️⃣ **Create a new PHP file** (e.g., `assignment.php`).  
 2️⃣ **Define Variables:**  
    - Create a variable `$name` and assign it your name.  
-   - Create a variable `$welcomeMessage` with a greeting message.  
+   - Create a variable `$welcomeMessage` with a greeting message. 
+    
 3️⃣  **Embed PHP in HTML** to display all the above information in a structured format.  
 
 ### **Expected Output Example (in Browser):**  
