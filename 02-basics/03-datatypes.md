@@ -245,5 +245,3 @@ var_dump(is_string("hello")); // Output: bool(true)
 ✔ PHP **automatically converts types** (type juggling).  
 ✔ Use **explicit type casting** when needed.  
 ✔ Use `gettype()`, `var_dump()`, and `is_*()` functions for type checking.  
-
-Would you like an assignment to practice data types? 🚀
