@@ -108,11 +108,13 @@ if (0) {
 ### **5. Arrays (`array`)**  
 An array can store multiple values in a **single variable**.
 
+**Important:** An array always start with 0. So , if an array has 4 items. it should be 0,1,2,3
+
 ✔ **Indexed Array:**  
 ```php
 <?php
 $colors = ["red", "green", "blue"];
-echo $colors[0]; // Output: red
+echo $colors[0]; // Output: red // Note on 0th value.
 ?>
 ```
 
@@ -131,11 +133,13 @@ $users = [
     ["name" => "Bob", "age" => 28]
 ];
 
-echo $users[1]["name"]; // Output: Bob
+echo $users[1]["name"]; // Output: Bob // Again! Foucs on index as here the key is 0, 1
+echo echo $users[0]["name"]; // Output: Alice
+
 ```
 
 ---
-
+## Advanced Topics
 ### **6. Objects (`object`)**  
 Objects are instances of **classes**.
 
