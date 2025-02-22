@@ -1,8 +1,11 @@
-<?php
-
+```php
 // 1. Even or Odd
 $number = 7;
-echo ($number % 2 == 0) ? "Even" : "Odd";
+if ($number % 2 == 0) {
+    echo "Even";
+} else {
+    echo "Odd";
+}
 
 // 2. Largest of Three Numbers
 $a = 10; $b = 25; $c = 15;
@@ -13,6 +16,7 @@ if ($a > $b && $a > $c) {
 } else {
     echo "$c is the largest";
 }
+
 // 3. Grade Calculator
 $marks = 85;
 echo match (true) {
@@ -47,7 +51,7 @@ for ($i = 1; $i <= $n; $i++) {
 }
 
 // 7. Reverse Counting
-i = 10;
+$i = 10;
 do {
     echo "$i ";
     $i--;
@@ -76,7 +80,11 @@ for ($i = 1; $i <= $n; $i++) {
 
 // 11. Palindrome Checker
 $str = "madam";
-echo ($str === strrev($str)) ? "Yes, it's a palindrome!" : "No, it's not a palindrome.";
+if ($str === strrev($str)) {
+    echo "Yes, it's a palindrome!";
+} else {
+    echo "No, it's not a palindrome.";
+}
 
 // 12. First 10 Prime Numbers
 $count = 0;
@@ -108,8 +116,4 @@ for ($i = 1; $i <= 50; $i++) {
         echo "$i ";
     }
 }
-// Shorthand solution for same problem
-for ($i = 1; $i <= 50; $i++) {
-    echo ($i % 3 == 0 && $i % 5 == 0) ? "FizzBuzz " : (($i % 3 == 0) ? "Fizz " : (($i % 5 == 0) ? "Buzz " : "$i "));
-}
-?>
+```
